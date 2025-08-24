@@ -1,0 +1,18 @@
+pipenv==2024.1.0
+Django==4.2.11
+djangorestframework
+markdown
+django-filter
+drf-spectacular
+djangorestframework-simplejwt==5.3.1
+django-environ==0.11.2
+# uWSGI==2.0.24
+python-slugify
+pillow == 10.3.0
+django-cors-headers
+# [dev-packages]
+isort
+black
+autoflake
+flake8
+pre-commit
