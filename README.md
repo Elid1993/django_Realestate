@@ -7,6 +7,12 @@ API documentation (Swagger and Redoc)
 ## clone the project
 git clone 
 https://github.com/Elid1993/django_Realestate.git
+## create a virtual environment
+python -m venv venv  
+venv\scripts\activate  #windows
+source venv/bin/activate  #linux/mac
+## install requirement
+pip install -r requirements.txt
 ## database migration
 python manage.py makemigrations
 python manage.py migrate
