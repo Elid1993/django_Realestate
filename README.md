@@ -1,24 +1,20 @@
-<!-- Real Estate Backend(Django+DRF) -->
+## Real Estate Backend(Django+DRF)
 Features:
 Listing management (registration,editing,deleting,viewing)
 Category and image management
 User registration and login(JWT)
 API documentation (Swagger and Redoc)
+## clone the project
 git clone 
-https:m,,....................
-<!-- create a virtual environment -->
-python -m venv venv
-venv\scripts\activate
-<!-- Quick setup -->
- pip install -r requirements.txt
-<!-- database migration -->
+https://github.com/Elid1993/django_Realestate.git
+## database migration
 python manage.py makemigrations
 python manage.py migrate
-<!-- create admin  -->
+## create admin 
 python manage.py createsuperuser
-<!-- run project -->
+## run project
 python manage.py runserver
-<!-- API -->
+## API
 Swagger UI: http://localhost:8000/api/swagger-ui/
 Redoc:http://localhost:8000/api/redoc/
 schema(openAPI):http://localhost:8000/api/schema/
