@@ -17,7 +17,7 @@ class PropertySerializer(serializers.ModelSerializer):
         model = Property
         fields=("id","title","slug","description","price","city","address","area_sqm","bedrooms","bathrooms",
                 "parking","year_built","property_type","status","is_published","features","created_at","updated_at",
-                "owner","category","images")
+                "owner","category","image")
         read_only_fields=("slug","owner","created_at","updated_at")
         def create(self,validated_data):
             images_data = validated_data.pop("images",[])
